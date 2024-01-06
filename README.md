@@ -75,7 +75,7 @@ Tasbeeh Calculator is built using technologies:-
 
 <h2 id='installation'>Installation</h2>
 
-1. Clone the repository: `git clone https://github.com/your-username/tasbeeh-calculator.git`
+1. Clone the repository: `git clone https://github.com/MKhizar51/Tasbeeh-Calculator.git`
 
 2. Open the project in Visual Studio Code
 3. Open `index.html` in your browser
