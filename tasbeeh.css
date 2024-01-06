@@ -1,0 +1,201 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  user-select: none;
+}
+
+body {
+  background-color: black;
+  background-image: url(Images/background.jpg);
+  background-position: center;
+  background-position-y: -1100px;
+  background-repeat: no-repeat;
+  color: azure;
+  display: flex;
+  flex-flow: column;
+  place-items: center;
+  position: relative;
+  text-align: center;
+}
+
+header {
+  color: beige;
+  font-size: larger;
+  margin-top: 5%;
+  text-decoration: underline;
+  text-shadow: 2px 2px 1px black;
+}
+
+main {
+  background-color: #f8f8f825;
+  border-radius: 10px;
+  box-shadow: 2px 2px 1px black;
+  width: 75%;
+}
+
+img {
+  height: 92px;
+  margin: 10px;
+}
+
+#count {
+  color: gold;
+  font-size: larger;
+  text-shadow: 2px 2px 1px black;
+}
+
+.button {
+  text-wrap: nowrap;
+}
+
+button {
+  background-color: cadetblue;
+  border-radius: 10px;
+  color: #fff;
+  font-weight: 700;
+  font: icon;
+  height: 60px;
+  margin: 1%;
+  text-align: center;
+  text-decoration: none;
+  width: 60px;
+}
+
+#tasbeeh {
+  background-color: black;
+  color: darkgoldenrod;
+  margin-left: 0;
+  margin-right: 0;
+  min-width: 200px;
+  text-align: center;
+  width: 50%;
+}
+
+#tasbeeh:hover {
+  background-color: #333;
+  color: goldenrod;
+}
+
+.Enteries {
+  font-size: 1.25rem;
+  font: caption;
+  margin: 20px;
+  text-shadow: 2px 2px 1px black;
+}
+
+.add:hover {
+  background-color: cadetblue;
+  color: black;
+}
+
+.add:active {
+  background-color: cadetblue;
+  color: gold;
+}
+
+.reset:hover {
+  background-color: firebrick;
+  color: black;
+}
+
+.reset:active {
+  background-color: firebrick;
+  color: GOLD;
+}
+
+.save:hover {
+  background-color: green;
+  color: black;
+}
+
+.save:active {
+  background-color: green;
+  color: gold;
+}
+
+.reset {
+  background-color: firebrick;
+}
+
+.save {
+  background-color: green;
+}
+
+#saveEl {
+  color: gold;
+  font-size: 1.5rem;
+  text-decoration: underline none;
+  text-shadow: 2px 2px 1px black;
+  text-wrap: wrap;
+}
+
+#azkar {
+  animation: animatemodel 1s;
+  background-color: #f7f7f7;
+  border-radius: 5px;
+  border: 5px solid goldenrod;
+  box-shadow: 2px 2px 1px black;
+  color: darkorange;
+  display: none;
+  font-size: 25px;
+  height: fit-content;
+  padding: 15px;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50vh;
+}
+
+.recite {
+  color: black;
+  font-weight: bolder;
+  margin: 3px;
+  text-shadow: none;
+}
+
+.heading {
+  color: red;
+  margin: 3px;
+  text-decoration: underline;
+  text-shadow: 0 0 1px black;
+  text-wrap: nowrap;
+}
+
+.number {
+  font-weight: bolder;
+  text-shadow: none;
+}
+
+footer {
+  background-color: azure;
+  bottom: 0;
+  color: black;
+  font-size: 20px;
+  left: 0;
+  padding: 20px;
+  position: fixed;
+  width: 100%;
+}
+
+.author {
+  font-family: fantasy;
+  text-decoration: underline;
+}
+
+/* TRANSITIONS */
+@keyframes animatemodel {
+  from {
+    opacity: 0;
+    top: -300px;
+  }
+
+  to {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 1;
+  }
+}
